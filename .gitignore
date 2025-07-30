@@ -1,18 +1,60 @@
-# Ignore virtual environments
-venv/
-.env/
-
-# Ignore Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Ignore IDE/editor settings
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# PyInstaller build folders
+/build/
+/dist/
+/*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+*.env
+
+# PyQt UI files if generated
+*.pyc
+*.qrc
+*.qt.py
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
 .vscode/
+
+# PyCharm
 .idea/
 
-# Ignore system files
-.DS_Store
-Thumbs.db
-
-# Ignore logs
+# Logs and system files
 *.log
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Compiled Qt resource files
+resources_rc.py
+
+# Custom config files
+.env.local
+.env.*
