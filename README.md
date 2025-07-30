@@ -70,7 +70,7 @@ Enhance your experience by making the WeatherPeek tray icon always visible and s
 ---
 
 
-## 🚀 Installation
+## Installation
 
 ```bash
 git clone https://github.com/yourusername/weatherpeek.git
