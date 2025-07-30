@@ -20,13 +20,13 @@ WeatherPeek is a minimalist weather monitor that runs in your system tray. Built
 
 ---
 
-## Requirements
+## Tech Stack 
 
 - Python 3.x
 - [PyQt5](https://pypi.org/project/PyQt5/)
 - [Requests](https://pypi.org/project/requests/)
 - [Open-Meteo API](https://open-meteo.com/)
-- [IPInfo.io (or fallback IP Geolocation API)](https://ipinfo.io/)
+- [IPInfo.io](https://ipinfo.io/)
 - [PyInstaller](https://www.pyinstaller.org/) for packaging
 
 ---
