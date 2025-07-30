@@ -3,12 +3,15 @@
 **WeatherPeek** is a minimalist weather monitor that lives in your system tray.  
 Built with **Python** and **PyQt5**, it fetches your current location using your IP address and shows real-time weather using icon-based tray indicators — no popups, no windows, just clean, quiet updates.
 
+When you hover over the tray icon, it also shows a **short weather description** and the **current temperature (°C)**.
+
 ---
 
 ## Features
 
 - 🌍 Auto-detects your location (via IP)
 - ⛅ Displays current weather using tray icons (with day/night awareness)
+- ℹ️ Hover to see weather description + temperature (°C)
 - 🔁 Automatically refreshes at regular intervals
 - 🖥️ Lightweight and non-intrusive
 - 📡 Uses free weather APIs (Open‑Meteo + IPInfo)
