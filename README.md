@@ -16,8 +16,7 @@ WeatherPeek is a minimalist weather monitor that runs in your system tray. Built
 
 ## 🖼️ Preview
 
-![Tray Example](src/icons/example.png)  
-*Tray icon changes based on live weather data.*
+![Tray Example](demo.gif)  
 
 ---
 
