@@ -32,7 +32,7 @@ WeatherPeek is a minimalist weather monitor that runs in your system tray. Built
 ---
 
 
-## 📦 Download
+## Download
 
 👉 [Download the latest release](https://github.com/mwahaj36/Weather-Peek/releases) from the **Releases** section.
 
@@ -40,6 +40,32 @@ WeatherPeek is a minimalist weather monitor that runs in your system tray. Built
 - 🧪 Python source version for Linux/macOS
 
 > No installation needed — just run it!
+
+---
+
+# Optional Setup for WeatherPeek (Windows)
+
+Enhance your experience by making the WeatherPeek tray icon always visible and setting it to auto-run at system startup.
+
+---
+
+## Make Tray Icon Always Visible
+
+1. **Right-click** on the taskbar and choose **Taskbar settings**
+2. Scroll to **Notification area** and click **"Select which icons appear on the taskbar"**
+3. Find **WeatherPeek** 
+4. Toggle it **ON** to always show the icon in the system tray
+
+---
+
+## Run WeatherPeek on Startup Automatically
+
+1. Press `Win + R` to open the Run dialog
+2. Type: `shell:startup`
+3. Press **Enter** — this opens the Startup folder
+4. Copy the WeatherPeek `.exe` file (or a shortcut to it) into this folder
+
+> WeatherPeek will now launch automatically every time you log in
 
 ---
 
