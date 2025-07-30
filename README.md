@@ -1,82 +1,91 @@
 # WeatherPeek ☁️🌤️
 
-WeatherPeek is a minimalist weather monitor that runs in your system tray. Built with **Python** and **PyQt5**, it fetches your current location and displays the live weather using icon-based indicators in the tray — no popups, no windows, just clean, quiet updates.
+**WeatherPeek** is a minimalist weather monitor that lives in your system tray.  
+Built with **Python** and **PyQt5**, it fetches your current location using your IP address and shows real-time weather using icon-based tray indicators — no popups, no windows, just clean, quiet updates.
 
 ---
 
 ## Features
 
-- 🌍 Auto-detects your location (based on IP)
-- ⛅ Displays weather via dynamic tray icons (day/night aware)
-- 🔁 Updates automatically at regular intervals
+- 🌍 Auto-detects your location (via IP)
+- ⛅ Displays current weather using tray icons (with day/night awareness)
+- 🔁 Automatically refreshes at regular intervals
 - 🖥️ Lightweight and non-intrusive
-- 📡 Uses free weather APIs
+- 📡 Uses free weather APIs (Open‑Meteo + IPInfo)
+- 🎨 Icons from [IconMonster](https://iconmonstr.com/)
 
 ---
 
 ## Preview
 
-![Tray Example](demo.gif)  
+![Tray Example](demo.gif)
+
+---
+
+## Weather Support
+
+Currently, WeatherPeek supports a simplified range of common weather conditions — enough to cover most typical use cases (e.g. clear sky, rain, snow, clouds, etc.), both in day and night variations.
+
+🔧 **Planned improvements:**
+- Expand icon support for more nuanced conditions
+- Add optional features
 
 ---
 
 ## Tech Stack 
 
-- Python 3.x
-- [PyQt5](https://pypi.org/project/PyQt5/)
-- [Requests](https://pypi.org/project/requests/)
-- [Open-Meteo API](https://open-meteo.com/)
-- [IPInfo.io](https://ipinfo.io/)
+- Python 3.x  
+- [PyQt5](https://pypi.org/project/PyQt5/)  
+- [Requests](https://pypi.org/project/requests/)  
+- [Open-Meteo API](https://open-meteo.com/)  
+- [IPInfo.io](https://ipinfo.io/)  
 - [PyInstaller](https://www.pyinstaller.org/) for packaging
 
 ---
 
-
 ## Download
 
-👉 [Download the latest release](https://github.com/mwahaj36/Weather-Peek/releases) from the **Releases** section.
+👉 [Grab the latest release](https://github.com/mwahaj36/Weather-Peek/releases)
 
-- ✅ Pre-built `.exe` for Windows available
-- 🧪 Python source version for Linux/macOS
+- ✅ Pre-built `.exe` for Windows  
+- 🧪 Python source version for Linux/macOS  
 
-> No installation needed — just run it!
-
----
-
-# Optional Setup for WeatherPeek (Windows)
-
-Enhance your experience by making the WeatherPeek tray icon always visible and setting it to auto-run at system startup.
+> No installation needed — just run the `.exe`!
 
 ---
 
-## Make Tray Icon Always Visible
+## Optional Setup for WeatherPeek (Windows)
 
-1. **Right-click** on the taskbar and choose **Taskbar settings**
-2. Scroll to **Notification area** and click **"Select which icons appear on the taskbar"**
-3. Find **WeatherPeek** 
-4. Toggle it **ON** to always show the icon in the system tray
+### ✅ Make Tray Icon Always Visible
 
----
-
-## Run WeatherPeek on Startup Automatically
-
-1. Press `Win + R` to open the Run dialog
-2. Type: `shell:startup`
-3. Press **Enter** — this opens the Startup folder
-4. Copy the WeatherPeek `.exe` file (or a shortcut to it) into this folder
-
-> WeatherPeek will now launch automatically every time you log in
+1. **Right-click** on the taskbar → choose **Taskbar settings**  
+2. Scroll to **Notification area** → click **"Select which icons appear on the taskbar"**  
+3. Find **WeatherPeek** in the list  
+4. Toggle it **ON**  
 
 ---
 
+### 🚀 Run WeatherPeek on Startup Automatically
 
-## Installation
+1. Press `Win + R` to open the **Run** dialog  
+2. Type: `shell:startup` and press **Enter**  
+3. Copy the `WeatherPeek.exe` file (or a shortcut to it) into the folder that opens
+
+> Now it will launch automatically each time you log in.
+
+---
+
+## Installation (From Source)
 
 ```bash
-git clone https://github.com/yourusername/weatherpeek.git
-cd weatherpeek
+git clone https://github.com/mwahaj36/Weather-Peek.git
+cd Weather-Peek
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
 pip install -r requirements.txt
-
-
+python main.py
