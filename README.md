@@ -4,7 +4,7 @@ WeatherPeek is a minimalist weather monitor that runs in your system tray. Built
 
 ---
 
-## 📦 Features
+## Features
 
 - 🌍 Auto-detects your location (based on IP)
 - ⛅ Displays weather via dynamic tray icons (day/night aware)
@@ -14,13 +14,13 @@ WeatherPeek is a minimalist weather monitor that runs in your system tray. Built
 
 ---
 
-## 🖼️ Preview
+## Preview
 
 ![Tray Example](demo.gif)  
 
 ---
 
-## 🛠 Tech Stack
+## Requirements
 
 - Python 3.x
 - [PyQt5](https://pypi.org/project/PyQt5/)
@@ -30,6 +30,19 @@ WeatherPeek is a minimalist weather monitor that runs in your system tray. Built
 - [PyInstaller](https://www.pyinstaller.org/) for packaging
 
 ---
+
+
+## 📦 Download
+
+👉 [Download the latest release](https://github.com/mwahaj36/Weather-Peek/releases) from the **Releases** section.
+
+- ✅ Pre-built `.exe` for Windows available
+- 🧪 Python source version for Linux/macOS
+
+> No installation needed — just run it!
+
+---
+
 
 ## 🚀 Installation
 
