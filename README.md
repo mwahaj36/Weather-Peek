@@ -5,6 +5,8 @@ Built with **Python** and **PyQt5**, it fetches your current location using your
 
 When you hover over the tray icon, it also shows a **short weather description** and the **current temperature (°C)**.
 
+inspired by the simplicity and charm of [RunCat](https://github.com/Kyome22/RunCat_for_windows).
+
 ---
 
 ## Features
